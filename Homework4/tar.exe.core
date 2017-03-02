@@ -1,0 +1,22 @@
+[main] tar 1000 (0) exception: trapped!
+[main] tar 1000 (0) exception: code 0xC0000005 at 0x40F12E
+[main] tar 1000 (0) exception: ax 0x0 bx 0x4 cx 0x423588 dx 0xFF010000
+[main] tar 1000 (0) exception: si 0x0 di 0xA035FEC bp 0x242FDC0 sp 0x242FD9C
+[main] tar 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] tar 1000 (0) stack: Stack trace:
+[main] tar 1000 (0) stack: frame 0: sp = 0x242F7C0, pc = 0x6100A2C3
+[main] tar 1000 (0) stack: frame 1: sp = 0x242F7FC, pc = 0x77A334C9
+[main] tar 1000 (0) stack: frame 2: sp = 0x242F820, pc = 0x77A3349B
+[main] tar 1000 (0) stack: frame 3: sp = 0x242F8D0, pc = 0x779E0143
+[main] tar 1000 (0) stack: frame 4: sp = 0x242FDC0, pc = 0x40BEA5
+[main] tar 1000 (0) stack: frame 5: sp = 0x242FEB4, pc = 0x40D805
+[main] tar 1000 (0) stack: frame 6: sp = 0x242FEC8, pc = 0x415F86
+[main] tar 1000 (0) stack: frame 7: sp = 0x242FEDC, pc = 0x61004402
+[main] tar 1000 (0) stack: frame 8: sp = 0x242FF50, pc = 0x61004420
+[main] tar 1000 (0) stack: frame 9: sp = 0x242FF5C, pc = 0x41DBC6
+[main] tar 1000 (0) stack: frame 10: sp = 0x242FF6C, pc = 0x40103A
+[main] tar 1000 (0) stack: frame 11: sp = 0x242FF88, pc = 0x7570336A
+[main] tar 1000 (0) stack: frame 12: sp = 0x242FF94, pc = 0x77A09902
+[main] tar 1000 (0) stack: frame 13: sp = 0x242FFD4, pc = 0x77A098D5
+[main] tar 1000 (0) stack: frame 14: sp = 0x242FFEC, pc = 0x0
+[main] tar 1000 (0) stack: End of stack trace
